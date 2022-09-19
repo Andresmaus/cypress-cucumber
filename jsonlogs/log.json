@@ -1,0 +1,81 @@
+[
+  {
+    "description": "    Yo como usuario Quiero ingresar a Sawgs Lab Para validar mis credenciales",
+    "elements": [
+      {
+        "description": "",
+        "id": "verificar-el-inicio-de-sesion-correctamente;login-exitoso",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login Exitoso",
+        "before": [
+          {
+            "result": {
+              "duration": 1247000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "el usuario ingresa a la app sawgs Lab",
+            "result": {
+              "duration": 390000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "ingresa las credenciales de acceso",
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "da click en el boton Sign In para ingresar",
+            "result": {
+              "duration": 150000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "valida que puedo ingresar correctamente",
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verificar-el-inicio-de-sesion-correctamente",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verificar el inicio de sesion correctamente",
+    "uri": "cypress\\e2e\\features\\sawgs.feature"
+  }
+]
